@@ -1,0 +1,135 @@
+@import "tailwindcss";
+
+/*
+ * Krypton — "Inmersión Profunda"
+ * Water is graded by depth. Two reserved inks:
+ *   thermocline cyan  → actions and the active depth, nothing else
+ *   lamp amber        → agent signal, nothing else
+ */
+@theme {
+  --color-surface: #0f4c66;      /* 0 m: light still reaches */
+  --color-midnight: #0b2a44;     /* 10 m */
+  --color-cold: #0a2038;         /* 20 m */
+  --color-mesophotic: #071a30;   /* 40 m */
+  --color-abyss: #040c1a;        /* 60 m */
+  --color-snow: #eef4f5;         /* marine snow: primary text */
+  --color-silt: #a9bfcb;         /* secondary text */
+  --color-murk: #7f98a8;         /* tertiary text */
+  --color-rule: #1b3a55;         /* hairlines */
+  --color-thermo: #3fd8e8;       /* actions + active depth */
+  --color-thermo-deep: #1fa9bb;
+  --color-lamp: #ffb45e;         /* agent signal */
+  --color-alarm: #ff8a7a;        /* validation errors */
+
+  --font-display: 'Big Shoulders Display', 'Arial Narrow', sans-serif;
+  --font-sans: 'Geist', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: 'Geist Mono', ui-monospace, 'SFMono-Regular', monospace;
+
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: var(--color-abyss);
+  scrollbar-color: var(--color-rule) var(--color-abyss);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
+
+body {
+  margin: 0;
+  background: var(--color-midnight);
+  color: var(--color-snow);
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: rgba(63, 216, 232, 0.3);
+  color: #ffffff;
+}
+
+input, textarea, select { caret-color: var(--color-thermo); }
+
+*:focus-visible {
+  outline: 2px solid var(--color-thermo);
+  outline-offset: 3px;
+}
+
+a { text-underline-offset: 0.22em; text-decoration-thickness: 1px; }
+
+.font-display {
+  font-family: var(--font-display);
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.005em;
+  line-height: 0.9;
+  text-wrap: balance;
+}
+
+.data {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums slashed-zero;
+}
+
+.label {
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+h1, h2, h3 { text-wrap: balance; }
+p { text-wrap: pretty; }
+
+/* Scrollbar: a depth line */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: var(--color-abyss); }
+::-webkit-scrollbar-thumb {
+  background: var(--color-rule);
+  border: 3px solid var(--color-abyss);
+}
+::-webkit-scrollbar-thumb:hover { background: var(--color-thermo-deep); }
+
+/* Form controls in the instrument language */
+.field {
+  width: 100%;
+  background: rgba(4, 12, 26, 0.55);
+  border: 1px solid var(--color-rule);
+  color: var(--color-snow);
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  padding: 0.8rem 0.9rem;
+  border-radius: 2px;
+  transition: border-color 0.25s var(--ease-out-expo), background-color 0.25s var(--ease-out-expo);
+}
+.field::placeholder { color: #7f98a8; }
+.field:hover { border-color: #2c5677; }
+.field:focus { outline: none; border-color: var(--color-thermo); background: rgba(4, 12, 26, 0.8); }
+.field[aria-invalid="true"] { border-color: var(--color-alarm); }
+select.field {
+  appearance: none;
+  background-image: linear-gradient(45deg, transparent 50%, var(--color-thermo) 50%), linear-gradient(135deg, var(--color-thermo) 50%, transparent 50%);
+  background-position: calc(100% - 18px) 50%, calc(100% - 13px) 50%;
+  background-size: 5px 5px, 5px 5px;
+  background-repeat: no-repeat;
+  padding-right: 2.5rem;
+}
+select.field option { background: #071a30; color: var(--color-snow); }
+
+/* Thermocline: the one horizontal light line the world allows */
+.thermocline {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--color-thermo) 18%, var(--color-thermo) 82%, transparent);
+  box-shadow: 0 0 18px 2px rgba(63, 216, 232, 0.35);
+}

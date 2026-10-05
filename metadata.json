@@ -1,0 +1,7 @@
+{
+  "name": "Krypton Atomic Software Factory",
+  "description": "Sitio corporativo y sistema de diseño para una software factory de alta ingeniería: web, apps móviles, ERP/CRM, facturación electrónica, ciberseguridad y HealthTech con estética 3D espacial-atómica.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

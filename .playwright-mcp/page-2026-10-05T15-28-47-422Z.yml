@@ -1,0 +1,769 @@
+- generic [ref=e2]:
+  - link "Saltar al contenido" [ref=e3] [cursor=pointer]:
+    - /url: "#agentes"
+  - complementary "Perfil de inmersión" [ref=e5]:
+    - link "Krypton, volver a la superficie" [ref=e7] [cursor=pointer]:
+      - /url: "#inicio"
+      - generic [ref=e8]: Krypton
+      - generic [ref=e9]: Atomic Software Factory
+    - generic [ref=e10]:
+      - generic [ref=e11]: Perfil de inmersión
+      - generic [ref=e12]: m
+    - navigation [ref=e13]:
+      - list [ref=e15]:
+        - listitem [ref=e16]:
+          - link "00 Inicio Superficie" [ref=e17] [cursor=pointer]:
+            - /url: "#inicio"
+            - generic [ref=e20]: "00"
+            - generic [ref=e21]:
+              - generic [ref=e22]: Inicio
+              - generic [ref=e23]: Superficie
+        - listitem [ref=e24]:
+          - link "10 Agentes IA Termoclina" [ref=e25] [cursor=pointer]:
+            - /url: "#agentes"
+            - generic [ref=e28]: "10"
+            - generic [ref=e29]:
+              - generic [ref=e30]: Agentes IA
+              - generic [ref=e31]: Termoclina
+        - listitem [ref=e32]:
+          - link "18 Automatización Arrecife" [ref=e33] [cursor=pointer]:
+            - /url: "#automatizacion"
+            - generic [ref=e36]: "18"
+            - generic [ref=e37]:
+              - generic [ref=e38]: Automatización
+              - generic [ref=e39]: Arrecife
+        - listitem [ref=e40]:
+          - link "40 Sistemas Pared mesofótica" [ref=e41] [cursor=pointer]:
+            - /url: "#sistemas"
+            - generic [ref=e44]: "40"
+            - generic [ref=e45]:
+              - generic [ref=e46]: Sistemas
+              - generic [ref=e47]: Pared mesofótica
+        - listitem [ref=e48]:
+          - link "52 Arquitectura Lecho" [ref=e49] [cursor=pointer]:
+            - /url: "#arquitectura"
+            - generic [ref=e52]: "52"
+            - generic [ref=e53]:
+              - generic [ref=e54]: Arquitectura
+              - generic [ref=e55]: Lecho
+        - listitem [ref=e56]:
+          - link "60 Método Profundidad de retorno" [ref=e57] [cursor=pointer]:
+            - /url: "#metodo"
+            - generic [ref=e60]: "60"
+            - generic [ref=e61]:
+              - generic [ref=e62]: Método
+              - generic [ref=e63]: Profundidad de retorno
+        - listitem [ref=e64]:
+          - link "24 Resultados Parada de ascenso" [ref=e65] [cursor=pointer]:
+            - /url: "#resultados"
+            - generic [ref=e68]: "24"
+            - generic [ref=e69]:
+              - generic [ref=e70]: Resultados
+              - generic [ref=e71]: Parada de ascenso
+        - listitem [ref=e72]:
+          - link "00 Contacto Superficie" [ref=e73] [cursor=pointer]:
+            - /url: "#contacto"
+            - generic [ref=e76]: "00"
+            - generic [ref=e77]:
+              - generic [ref=e78]: Contacto
+              - generic [ref=e79]: Superficie
+    - generic [ref=e80]:
+      - generic [ref=e81]:
+        - generic [ref=e82]: Profundidad
+        - generic [ref=e83]: Descenso
+      - paragraph [ref=e86]:
+        - generic [ref=e87]: "000.0"
+        - generic [ref=e88]: m
+      - link "Hablar con un arquitecto" [ref=e89] [cursor=pointer]:
+        - /url: "#contacto"
+  - main [ref=e92]:
+    - region [ref=e93]:
+      - generic [ref=e95]:
+        - heading "IA que llega al fondo de tus sistemas" [level=1] [ref=e96]
+        - paragraph [ref=e97]: Diseñamos agentes de IA y automatización que leen, deciden y registran sobre tu ERP, tu facturación electrónica y tus sistemas críticos. Los construye el mismo equipo que ingenia esos sistemas.
+        - generic [ref=e98]:
+          - link "Hablar con un arquitecto" [ref=e99] [cursor=pointer]:
+            - /url: "#contacto"
+          - link "Ver cómo opera un agente" [ref=e102] [cursor=pointer]:
+            - /url: "#agentes"
+      - generic [ref=e106]:
+        - generic [ref=e107]:
+          - generic [ref=e108]:
+            - term [ref=e109]: Disponibilidad SLA
+            - definition [ref=e110]: 99.995%
+          - generic [ref=e111]:
+            - term [ref=e112]: Latencia P99 global
+            - definition [ref=e113]: <45ms
+          - generic [ref=e114]:
+            - term [ref=e115]: Deuda técnica
+            - definition [ref=e116]: Cero
+        - figure "Simulación ilustrativa de un agente de cuentas por pagar" [ref=e118]:
+          - generic [ref=e119]:
+            - generic [ref=e120]: Agente de cuentas por pagar
+            - generic [ref=e121]: Simulación ilustrativa
+          - list [ref=e122]:
+            - listitem [ref=e123]:
+              - generic [ref=e124]: 00.0s
+              - generic [ref=e128]: Correo recibidofactura F001-004812 · PDF + XML
+            - listitem [ref=e129]:
+              - generic [ref=e130]: 01.4s
+              - generic [ref=e133]: Lectura23 campos · RUC, montos, IGV
+            - listitem [ref=e134]:
+              - generic [ref=e135]: 02.1s
+              - generic [ref=e138]: Validación SUNATcomprobante aceptado
+            - listitem [ref=e139]:
+              - generic [ref=e140]: 02.9s
+              - generic [ref=e143]: ConciliaciónOC-7731 · diferencia S/ 41.20
+            - listitem [ref=e144]:
+              - generic [ref=e145]: 03.3s
+              - generic [ref=e148]: Toleranciadentro del 0.5 % aprobado
+            - listitem [ref=e149]:
+              - generic [ref=e150]: 03.8s
+              - generic [ref=e153]: Asiento en ERPdiario de compras · registrado
+          - generic [ref=e154]:
+            - generic [ref=e155]: Intervención humana
+            - generic [ref=e156]: evaluando…
+    - region [ref=e157]:
+      - generic [ref=e159]:
+        - generic [ref=e160]:
+          - generic [ref=e161]:
+            - heading "Agentes que actúan, no que conversan" [level=2] [ref=e162]
+            - paragraph [ref=e163]: Un agente de Krypton tiene un trabajo concreto, acceso a las herramientas exactas para hacerlo y un límite claro de cuándo detenerse y llamar a una persona.
+          - paragraph [ref=e164]:
+            - generic [ref=e165]: 010.0m
+            - generic [ref=e166]: Termoclina
+        - generic [ref=e167]:
+          - generic [ref=e168]:
+            - generic [ref=e169]: Agente
+            - generic [ref=e170]: Qué hace
+            - generic [ref=e171]: Cuándo entrega a una persona
+          - list [ref=e172]:
+            - listitem [ref=e173]:
+              - generic [ref=e174]:
+                - heading "Agente de cuentas por pagar" [level=3] [ref=e175]
+                - paragraph [ref=e177]: Correo · SUNAT · SAT · DIAN · SII · ERP
+              - paragraph [ref=e178]: Lee facturas PDF y XML, valida su estado ante el ente tributario, concilia contra la orden de compra y la recepción, y registra el asiento en tu ERP.
+              - paragraph [ref=e179]: Diferencias fuera de tolerancia y proveedores nuevos pasan a tu equipo con el caso ya armado.
+            - listitem [ref=e180]:
+              - generic [ref=e181]:
+                - heading "Agente de atención y backoffice" [level=3] [ref=e182]
+                - paragraph [ref=e184]: WhatsApp · correo · CRM · Contratos y catálogo
+              - paragraph [ref=e185]: Responde a clientes con información de tus contratos, catálogo y estado de pedidos, crea tickets y actualiza el CRM sin copiar y pegar.
+              - paragraph [ref=e186]: Reclamos, descuentos y casos sensibles escalan a una persona con el historial completo.
+            - listitem [ref=e187]:
+              - generic [ref=e188]:
+                - heading "Agente de cumplimiento y seguridad" [level=3] [ref=e189]
+                - paragraph [ref=e191]: Logs y SIEM · Controles ISO 27001 · Tickets
+              - paragraph [ref=e192]: Revisa eventos, cruza hallazgos con tus controles, prepara la evidencia para auditoría y abre las tareas de remediación.
+              - paragraph [ref=e193]: Ningún cambio de configuración se aplica sin aprobación del responsable de seguridad.
+            - listitem [ref=e194]:
+              - generic [ref=e195]:
+                - heading "Agente clínico-administrativo" [level=3] [ref=e196]
+                - paragraph [ref=e198]: HL7 FHIR · Agenda · Aseguradoras
+              - paragraph [ref=e199]: Prepara autorizaciones, resúmenes de historia y gestiones de agenda a partir de recursos FHIR, dentro del perímetro HIPAA.
+              - paragraph [ref=e200]: "No diagnostica ni prescribe: todo documento clínico queda para revisión del profesional."
+        - generic [ref=e201]:
+          - generic [ref=e202]:
+            - heading "Límites antes que demos" [level=3] [ref=e203]
+            - generic [ref=e204]:
+              - generic [ref=e205]:
+                - term [ref=e206]: Permisos mínimos
+                - definition [ref=e207]: Cada agente accede solo a las herramientas y datos que su tarea necesita, con credenciales rotadas desde Vault.
+              - generic [ref=e208]:
+                - term [ref=e209]: Humano en el circuito
+                - definition [ref=e210]: Umbrales de monto, riesgo o confianza definidos contigo deciden qué se aprueba solo y qué espera a una persona.
+              - generic [ref=e211]:
+                - term [ref=e212]: Bitácora auditable
+                - definition [ref=e213]: Cada lectura, decisión y acción queda registrada con su contexto, lista para auditoría interna o regulatoria.
+              - generic [ref=e214]:
+                - term [ref=e215]: Evaluado antes de producción
+                - definition [ref=e216]: Suites de evaluación con tus casos reales miden precisión y errores antes de cada versión.
+              - generic [ref=e217]:
+                - term [ref=e218]: Tus datos en tu nube
+                - definition [ref=e219]: Despliegue en tu AWS, GCP o Azure, o con modelos abiertos on-premise cuando la regulación lo exige.
+          - generic [ref=e220]:
+            - heading "Con qué los construimos" [level=3] [ref=e221]
+            - table [ref=e222]:
+              - caption [ref=e223]: Stack de agentes de IA
+              - rowgroup [ref=e224]:
+                - row [ref=e225]:
+                  - rowheader "Modelos" [ref=e226]
+                  - cell "Claude · GPT · Gemini · Llama on-premise" [ref=e227]
+                - row [ref=e228]:
+                  - rowheader "Orquestación" [ref=e229]
+                  - cell "LangGraph · Temporal" [ref=e230]
+                - row [ref=e231]:
+                  - rowheader "Herramientas" [ref=e232]
+                  - cell "MCP · APIs de tu ERP, CRM y entes tributarios" [ref=e233]
+                - row [ref=e234]:
+                  - rowheader "Memoria" [ref=e235]
+                  - cell "PostgreSQL + pgvector" [ref=e236]
+                - row [ref=e237]:
+                  - rowheader "Observabilidad" [ref=e238]
+                  - cell "OpenTelemetry · Langfuse" [ref=e239]
+    - region [ref=e240]:
+      - generic [ref=e241]:
+        - generic [ref=e242]:
+          - generic [ref=e243]:
+            - heading "Primero quitamos pasos. Después automatizamos." [level=2] [ref=e244]
+            - paragraph [ref=e245]: Automatizar un proceso roto solo lo rompe más rápido. Empezamos por cómo trabaja hoy tu operación, con datos, y decidimos qué hace una regla, qué hace un agente y qué hace una persona.
+          - paragraph [ref=e246]:
+            - generic [ref=e247]: 018.0m
+            - generic [ref=e248]: Arrecife
+        - list [ref=e251]:
+          - listitem [ref=e252]:
+            - generic [ref=e253]: paso 1 de 4
+            - heading "Mapear" [level=3] [ref=e256]
+            - paragraph [ref=e257]: "Reconstruimos el proceso real desde los registros de tus sistemas, no desde el organigrama: dónde se espera, dónde se repite, dónde se equivoca."
+          - listitem [ref=e258]:
+            - generic [ref=e259]: paso 2 de 4
+            - heading "Rediseñar" [level=3] [ref=e262]
+            - paragraph [ref=e263]: Eliminamos pasos antes de automatizarlos. Lo que queda se divide entre reglas deterministas y decisiones que requieren criterio.
+          - listitem [ref=e264]:
+            - generic [ref=e265]: paso 3 de 4
+            - heading "Automatizar" [level=3] [ref=e268]
+            - paragraph [ref=e269]: Flujos orquestados para las reglas, agentes de IA para lo no estructurado, y personas para lo que de verdad lo merece.
+          - listitem [ref=e270]:
+            - generic [ref=e271]: paso 4 de 4
+            - heading "Medir" [level=3] [ref=e274]
+            - paragraph [ref=e275]: Tiempo de ciclo, tasa de excepciones y costo por caso en un tablero en vivo, comparados contra la línea base.
+        - generic [ref=e276]:
+          - heading "¿Regla o agente?" [level=3] [ref=e277]
+          - generic [ref=e278]:
+            - generic [ref=e279]:
+              - heading "Flujo orquestado" [level=4] [ref=e280]
+              - list [ref=e282]:
+                - listitem [ref=e283]:
+                  - generic [aria-hidden] [ref=e284]: —
+                  - text: La regla se puede escribir sin excepciones ambiguas.
+                - listitem [ref=e285]:
+                  - generic [aria-hidden] [ref=e286]: —
+                  - text: "Los datos llegan estructurados: XML, API, base de datos."
+                - listitem [ref=e287]:
+                  - generic [aria-hidden] [ref=e288]: —
+                  - text: El costo de un error de interpretación es inaceptable.
+              - paragraph [ref=e289]: "Por ejemplo: Envío de comprobantes al ente tributario, sincronización de inventario, conciliación bancaria por referencia."
+            - generic [ref=e290]:
+              - heading "Agente de IA" [level=4] [ref=e291]
+              - list [ref=e293]:
+                - listitem [ref=e294]:
+                  - generic [aria-hidden] [ref=e295]: —
+                  - text: La entrada es un PDF, un correo, una foto o una conversación.
+                - listitem [ref=e296]:
+                  - generic [aria-hidden] [ref=e297]: —
+                  - text: Hace falta criterio, pero dentro de límites que se pueden auditar.
+                - listitem [ref=e298]:
+                  - generic [aria-hidden] [ref=e299]: —
+                  - text: La respuesta debe redactarse en lenguaje natural.
+              - paragraph [ref=e300]: "Por ejemplo: Facturas de proveedores nuevos, reclamos de clientes, preparación de evidencia para auditoría."
+    - region [ref=e301]:
+      - generic [ref=e302]:
+        - generic [ref=e303]:
+          - generic [ref=e304]:
+            - heading "Los sistemas donde trabajan tus agentes" [level=2] [ref=e305]
+            - paragraph [ref=e306]: "Un agente es tan confiable como el sistema que toca. Por eso también los ingeniamos: seis disciplinas de software crítico, con cumplimiento normativo desde el diseño."
+          - paragraph [ref=e307]:
+            - generic [ref=e308]: 040.0m
+            - generic [ref=e309]: Pared mesofótica
+        - generic [ref=e310]:
+          - tablist "Disciplinas" [ref=e311]:
+            - tab "01Plataformas web" [selected] [ref=e312]
+            - tab "02Apps móviles" [ref=e314]
+            - tab "03ERP y CRM" [ref=e315]
+            - tab "04Facturación electrónica" [ref=e316]
+            - tab "05Ciberseguridad" [ref=e317]
+            - tab "06Salud digital" [ref=e318]
+          - tabpanel "01Plataformas web" [ref=e319]:
+            - generic [ref=e320]:
+              - heading "Sitios Web & Plataformas Digitales" [level=3] [ref=e321]
+              - paragraph [ref=e322]: Arquitectura Jamstack & SSR con Core Web Vitals al 100% y SEO Técnico Ultra-Optimizado
+              - generic [ref=e323]:
+                - generic [ref=e324]:
+                  - heading "El problema que resolvemos" [level=4] [ref=e325]
+                  - paragraph [ref=e326]: Plataformas Web Lentas, Monolitos Opacos y Abandono por Carga Deficiente
+                  - paragraph [ref=e327]: El 53% de los usuarios abandona experiencias web que tardan más de 3 segundos en interactuar. La deuda técnica de CMS tradicionales genera vulnerabilidades y penalizaciones de ranking orgánico.
+                  - heading "Qué entregamos" [level=4] [ref=e328]
+                  - list [ref=e329]:
+                    - listitem [ref=e330]:
+                      - paragraph [ref=e331]: Arquitectura Next.js 15 / React con Server Components
+                      - paragraph [ref=e332]: Streaming SSR con hidratación selectiva y generación estática incremental (ISR).
+                      - paragraph [ref=e333]: Bundle inicial < 70KB gzip · LCP < 1.2s en conexiones móviles 4G · Zero Layout Shift garantizado
+                    - listitem [ref=e334]:
+                      - paragraph [ref=e335]: Ecosistema Headless CMS & Edge CDN
+                      - paragraph [ref=e336]: Desacoplamiento total de contenidos con Contentful o Sanity y distribución perimetral.
+                      - paragraph [ref=e337]: Purga instantánea de caché vía Webhooks · Bancos de assets optimizados AVIF/WebP automáticos
+                    - listitem [ref=e338]:
+                      - paragraph [ref=e339]: Auditoría SEO Técnico & Schema.org Semántico
+                      - paragraph [ref=e340]: Microdatos estructurados, Canonical URLs automáticas y sitemaps dinámicos multilingües.
+                      - paragraph [ref=e341]: Validación Google Rich Snippets · OpenGraph y Twitter Cards generadas on-demand
+                    - listitem [ref=e342]:
+                      - paragraph [ref=e343]: Suite de Accesibilidad WCAG 2.2 Nivel AA
+                      - paragraph [ref=e344]: Navegación completa por teclado, contraste verificado y compatibilidad con lectores de pantalla.
+                      - paragraph [ref=e345]: 100% en Lighthouse Accessibility · Visible focus rings con tokens monocromáticos
+                - generic [ref=e346]:
+                  - heading "Stack" [level=4] [ref=e347]
+                  - generic [ref=e348]:
+                    - generic [ref=e349]:
+                      - term [ref=e350]: Frontend Core
+                      - definition [ref=e351]: Next.js 15 (App Router), React 19, TypeScript 5.7, Tailwind CSS
+                    - generic [ref=e352]:
+                      - term [ref=e353]: Rendimiento & State
+                      - definition [ref=e354]: Turbopack, TanStack Query, Zustand, Motion
+                    - generic [ref=e355]:
+                      - term [ref=e356]: Content & Edge
+                      - definition [ref=e357]: Sanity Headless CMS, Vercel Edge / Cloudflare Workers, Cloudinary
+                    - generic [ref=e358]:
+                      - term [ref=e359]: Monitoreo & Analítica
+                      - definition [ref=e360]: Datadog RUM, SpeedCurve, Sentry Performance, Google Search Console
+                  - heading "Cumplimiento" [level=4] [ref=e361]
+                  - list [ref=e362]:
+                    - listitem [ref=e363]:
+                      - paragraph [ref=e364]: WCAG 2.2 Nivel AA
+                      - paragraph [ref=e365]: Auditoría automatizada con Axe-Core en pipelines de CI/CD.
+                    - listitem [ref=e366]:
+                      - paragraph [ref=e367]: Google Core Web Vitals
+                      - paragraph [ref=e368]: CrUX API score verificado en ambiente productivo.
+                    - listitem [ref=e369]:
+                      - paragraph [ref=e370]: GDPR / Cookie Consent
+                      - paragraph [ref=e371]: Consent Mode v2 implementado sin fugas de IP.
+    - region [ref=e372]:
+      - generic [ref=e373]:
+        - generic [ref=e374]:
+          - generic [ref=e375]:
+            - heading "Arquitectura elegida por el problema" [level=2] [ref=e376]
+            - paragraph [ref=e377]: No hay una topología correcta para todo. Cada decisión queda escrita con sus costos, para que tu equipo sepa por qué el sistema es como es.
+          - paragraph [ref=e378]:
+            - generic [ref=e379]: 052.0m
+            - generic [ref=e380]: Lecho
+        - generic [ref=e381]:
+          - tablist "Patrones de arquitectura" [ref=e382]:
+            - tab "Monolito Modular" [selected] [ref=e383]
+            - tab "Microservicios Desacoplados" [ref=e385]
+            - tab "Arquitectura Guiada por Eventos" [ref=e386]
+            - tab "Arquitectura Serverless & Edge Compute" [ref=e387]
+            - tab "Arquitectura Multi-Tenant SaaS Resiliente" [ref=e388]
+          - tabpanel "Monolito Modular" [ref=e389]:
+            - generic [ref=e390]:
+              - generic [ref=e391]:
+                - paragraph [ref=e392]: Simplicidad Operativa con Separación Estricta de Dominios (DDD)
+                - paragraph [ref=e393]: Ideal para productos en fase de crecimiento acelerado o sistemas medianos donde la sobrecarga de red y la complejidad operativa de microservicios no está justificada económicamente.
+                - generic [ref=e394]:
+                  - generic [ref=e395]:
+                    - term [ref=e396]: Objetivo SLA
+                    - definition [ref=e397]: 99.9%
+                  - generic [ref=e398]:
+                    - term [ref=e399]: Stack de referencia
+                    - definition [ref=e400]: NestJS / Spring Boot, PostgreSQL 17 (Schemas separados), Redis Cache, BullMQ Workers
+              - generic [ref=e401]:
+                - generic [ref=e402]:
+                  - heading "A favor" [level=3] [ref=e403]
+                  - list [ref=e404]:
+                    - listitem [ref=e405]:
+                      - generic [aria-hidden] [ref=e406]: +
+                      - text: Transacciones ACID nativas sin necesidad de patrones complejos como Sagas de 2 fases.
+                    - listitem [ref=e407]:
+                      - generic [aria-hidden] [ref=e408]: +
+                      - text: Despliegue unificado y depuración local instantánea sin lidiar con latencias de red.
+                    - listitem [ref=e409]:
+                      - generic [aria-hidden] [ref=e410]: +
+                      - text: Refactorizaciones seguras soportadas por el compilador de TypeScript o Java.
+                    - listitem [ref=e411]:
+                      - generic [aria-hidden] [ref=e412]: +
+                      - text: Costos de infraestructura y orquestación reducidos en hasta un 70%.
+                - generic [ref=e413]:
+                  - heading "En contra" [level=3] [ref=e414]
+                  - list [ref=e415]:
+                    - listitem [ref=e416]:
+                      - generic [aria-hidden] [ref=e417]: −
+                      - text: El escalado de recursos es a nivel de toda la aplicación, no por módulo individual.
+                    - listitem [ref=e418]:
+                      - generic [aria-hidden] [ref=e419]: −
+                      - text: Un bug de memoria severo en un módulo puede comprometer la instancia completa.
+        - generic [ref=e420]:
+          - heading "Stack de ingeniería" [level=3] [ref=e421]
+          - table [ref=e422]:
+            - caption [ref=e423]: Tecnologías por categoría
+            - rowgroup [ref=e424]:
+              - row [ref=e425]:
+                - rowheader "Frontend" [ref=e426]
+                - cell [ref=e427]:
+                  - list [ref=e428]:
+                    - listitem "Plataformas web corporativas de alto tráfico y SEO crítico." [ref=e429]: Next.js 15 (App Router)v15.2
+                    - listitem "Interfaces interactivas y paneles de gestión complejos." [ref=e430]: React 19v19.1
+                    - listitem "Todo el ecosistema de código fuente." [ref=e431]: TypeScriptv5.7
+                    - listitem "Design systems consistentes y carga CSS < 15KB." [ref=e432]: Tailwind CSS v4v4.0
+                    - listitem "Experiencias inmersivas, geometrías atómicas y gemelos digitales." [ref=e433]: Three.js & WebGLr174
+              - row [ref=e434]:
+                - rowheader "Backend" [ref=e435]
+                - cell [ref=e436]:
+                  - list [ref=e437]:
+                    - listitem "APIs REST y gRPC de misión crítica con contratos estrictos." [ref=e438]: Node.js / NestJSv10.4
+                    - listitem "Motores financieros, transacciones bancarias y procesamiento masivo." [ref=e439]: Java 21 Spring Boot 3v3.4
+                    - listitem "Microservicios de alto throughput y timbrado de facturación fiscal." [ref=e440]: Go (Golang)v1.24
+                    - listitem "Integraciones con ecosistemas corporativos Microsoft y ERPs." [ref=e441]: .NET 9 Corev9.0
+              - row [ref=e442]:
+                - rowheader "Móvil" [ref=e443]
+                - cell [ref=e444]:
+                  - list [ref=e445]:
+                    - listitem "Aplicaciones móviles corporativas con experiencia nativa fluida a 60/120 FPS." [ref=e446]: React Nativev0.77
+                    - listitem "Apps con interfaces altamente personalizadas y consumo ultra-optimizado." [ref=e447]: Flutterv3.27
+                    - listitem "Módulos de seguridad y apps de alto rendimiento para el ecosistema Apple." [ref=e448]: Swift & SwiftUIv6.0
+                    - listitem "Apps empresariales Android y dispositivos POS dedicados." [ref=e449]: Kotlin & Jetpack Composev2.1
+              - row [ref=e450]:
+                - rowheader "Datos" [ref=e451]
+                - cell [ref=e452]:
+                  - list [ref=e453]:
+                    - listitem "Fuente de la verdad transaccional para ERPs y facturación." [ref=e454]: PostgreSQLv17.2
+                    - listitem "Caché distribuida, control de sesiones y colas de baja latencia." [ref=e455]: Redis Enterprise Clusterv7.4
+                    - listitem "Bus de eventos principal para arquitecturas event-driven." [ref=e456]: Apache Kafkav3.8
+                    - listitem "Buffers de emisión fiscal y tareas en background desacopladas." [ref=e457]: RabbitMQv3.13
+              - row [ref=e458]:
+                - rowheader "Cloud/DevOps" [ref=e459]
+                - cell [ref=e460]:
+                  - list [ref=e461]:
+                    - listitem "Clústeres productivos en AWS (EKS), GCP (GKE) y Azure (AKS)." [ref=e462]: Kubernetes (K8s)v1.31
+                    - listitem "Empaquetado inmutable y entornos de desarrollo idénticos a producción." [ref=e463]: Dockerv27.3
+                    - listitem "Gestión automatizada de redes, VPCs, bases de datos gestionadas y WAFs." [ref=e464]: Terraform & OpenTofuv1.9
+                    - listitem "CI/CD con despliegues Canary y rollback instantáneo." [ref=e465]: GitHub Actions & GitLab CIEnterprise
+                    - listitem "Observabilidad completa de infraestructura, pods y latencias P95/P99." [ref=e466]: Prometheus & Grafanav2.54
+              - row [ref=e467]:
+                - rowheader "Seguridad" [ref=e468]
+                - cell [ref=e469]:
+                  - list [ref=e470]:
+                    - listitem "Eliminación absoluta de credenciales en código y variables de entorno fijas." [ref=e471]: HashiCorp Vaultv1.17
+                    - listitem "Quality Gates obligatorios que impiden mezclar código vulnerable." [ref=e472]: SonarQube Enterprisev10.6
+                    - listitem "Protección contra ataques a la cadena de suministro de software." [ref=e473]: Snyk & TrivyLatest
+                    - listitem "Comunicación cifrada pod-a-pod y control de acceso RBAC a nivel de red." [ref=e474]: Istio Service Meshv1.23
+              - row [ref=e475]:
+                - rowheader "QA" [ref=e476]
+                - cell [ref=e477]:
+                  - list [ref=e478]:
+                    - listitem "Validación de flujos críticos de compra, login y transacciones." [ref=e479]: Playwrightv1.48
+                    - listitem "Cobertura de pruebas unitarias > 85% en lógica de negocio." [ref=e480]: Vitest & Jestv2.1
+                    - listitem "Simulación de picos de 50,000 usuarios concurrentes antes de salir a producción." [ref=e481]: k6 by Grafanav0.54
+                    - listitem "Validación asíncrona de contratos de API sin necesidad de desplegar el clúster entero." [ref=e482]: Pact Contract Testingv13.1
+    - region [ref=e483]:
+      - generic [ref=e484]:
+        - generic [ref=e485]:
+          - generic [ref=e486]:
+            - heading "Cómo trabajamos a esta profundidad" [level=2] [ref=e487]
+            - paragraph [ref=e488]: Cinco fases con una puerta de calidad cada una. Nada avanza a la siguiente sin cumplirla.
+          - paragraph [ref=e489]:
+            - generic [ref=e490]: 060.0m
+            - generic [ref=e491]: Profundidad de retorno
+        - list [ref=e492]:
+          - listitem [ref=e494]:
+            - generic [ref=e495]:
+              - paragraph [ref=e497]: Semanas 1 - 2
+              - generic [ref=e498]:
+                - heading "Discovery & Arquitectura de Dominio (DDD)" [level=3] [ref=e499]
+                - paragraph [ref=e500]: Modelado colaborativo mediante Event Storming y delimitación de contextos acotados (Bounded Contexts) antes de escribir código.
+                - group [ref=e501]:
+                  - generic "Actividades de la fase" [ref=e502] [cursor=pointer]
+              - generic [ref=e505]:
+                - generic [ref=e506]:
+                  - term [ref=e507]: Entregable
+                  - definition [ref=e508]: Documento de Decisión Arquitectónica (ADR) + Diagramas C4 Nivel 1 y 2.
+                - generic [ref=e509]:
+                  - term [ref=e510]: Puerta de calidad
+                  - definition [ref=e511]: Aprobación formal del Tech Lead y Architect antes de inicio de sprints.
+          - listitem [ref=e512]:
+            - generic [ref=e513]:
+              - paragraph [ref=e515]: Ciclos de 2 semanas
+              - generic [ref=e516]:
+                - heading "Sprints Ágiles & Trunk-Based Development" [level=3] [ref=e517]
+                - paragraph [ref=e518]: Desarrollo iterativo con integración continua sobre la rama principal mediante Feature Flags, evitando ramas de larga duración.
+                - group [ref=e519]:
+                  - generic "Actividades de la fase" [ref=e520] [cursor=pointer]
+              - generic [ref=e523]:
+                - generic [ref=e524]:
+                  - term [ref=e525]: Entregable
+                  - definition [ref=e526]: Incremento de producto desplegable y verificado en ambiente Staging.
+                - generic [ref=e527]:
+                  - term [ref=e528]: Puerta de calidad
+                  - definition [ref=e529]: "Branch protection activa: mínimo 2 aprobaciones de Senior Peers y suites de tests verdes."
+          - listitem [ref=e530]:
+            - generic [ref=e531]:
+              - paragraph [ref=e533]: Continuo en cada Commit
+              - generic [ref=e534]:
+                - heading "TDD & Shift-Left DevSecOps Testing" [level=3] [ref=e535]
+                - paragraph [ref=e536]: La calidad y la seguridad se evalúan en la máquina del desarrollador y en el pipeline de CI antes de que el código toque producción.
+                - group [ref=e537]:
+                  - generic "Actividades de la fase" [ref=e538] [cursor=pointer]
+              - generic [ref=e541]:
+                - generic [ref=e542]:
+                  - term [ref=e543]: Entregable
+                  - definition [ref=e544]: Reporte unificado de cobertura de pruebas (> 85%) y reporte SBOM criptográfico.
+                - generic [ref=e545]:
+                  - term [ref=e546]: Puerta de calidad
+                  - definition [ref=e547]: Cero vulnerabilidades críticas o altas (CVEs) y cobertura mínima del 85% obligatoria.
+          - listitem [ref=e548]:
+            - generic [ref=e549]:
+              - paragraph [ref=e551]: Bajo demanda / Múltiples veces al día
+              - generic [ref=e552]:
+                - heading "Entrega Continua (CI/CD) & Despliegues Zero-Downtime" [level=3] [ref=e553]
+                - paragraph [ref=e554]: Automatización total del ciclo de despliegue mediante Kubernetes con estrategias Canary o Blue/Green y rollback automático instantáneo.
+                - group [ref=e555]:
+                  - generic "Actividades de la fase" [ref=e556] [cursor=pointer]
+              - generic [ref=e559]:
+                - generic [ref=e560]:
+                  - term [ref=e561]: Entregable
+                  - definition [ref=e562]: Release Notes automatizados y contenedores desplegados en producción con Zero Downtime.
+                - generic [ref=e563]:
+                  - term [ref=e564]: Puerta de calidad
+                  - definition [ref=e565]: Verificación automática de Healthchecks y métricas de error rate < 0.01%.
+          - listitem [ref=e566]:
+            - generic [ref=e567]:
+              - paragraph [ref=e569]: 24/7 en Tiempo Real
+              - generic [ref=e570]:
+                - heading "Observabilidad SRE & Mejora Continua" [level=3] [ref=e571]
+                - paragraph [ref=e572]: Monitoreo proactivo de los cuatro Golden Signals (Latencia, Tráfico, Errores y Saturación) con OpenTelemetry, Prometheus y Grafana.
+                - group [ref=e573]:
+                  - generic "Actividades de la fase" [ref=e574] [cursor=pointer]
+              - generic [ref=e577]:
+                - generic [ref=e578]:
+                  - term [ref=e579]: Entregable
+                  - definition [ref=e580]: Cuadros de mando Grafana en tiempo real y reporte mensual de cumplimiento de SLA.
+                - generic [ref=e581]:
+                  - term [ref=e582]: Puerta de calidad
+                  - definition [ref=e583]: SLA contractual del 99.98% verificado y tiempo medio de resolución (MTTR) < 20 minutos.
+    - region [ref=e584]:
+      - generic [ref=e585]:
+        - generic [ref=e586]:
+          - generic [ref=e587]:
+            - heading "Resultados medidos en producción" [level=2] [ref=e588]
+            - paragraph [ref=e589]: Seis sistemas que operan hoy en empresas de la región. Cada cifra viene de su monitoreo en producción, no de una proyección.
+          - paragraph [ref=e590]:
+            - generic [ref=e591]: 024.0m
+            - generic [ref=e592]: Parada de ascenso
+        - list [ref=e593]:
+          - listitem [ref=e594]:
+            - generic [ref=e595]:
+              - generic [ref=e596]:
+                - paragraph [ref=e597]: Plataformas web
+                - heading "Fintech de Crédito Corporativo" [level=3] [ref=e598]
+                - paragraph [ref=e599]: "Antes: Un sitio heredado en WordPress con 6.2s de tiempo de carga, tasa de rebote del 68% y constantes fallos de seguridad."
+                - paragraph [ref=e600]: "Qué construimos: Reingeniería completa en Next.js App Router con arquitectura Jamstack, headless CMS Sanity y despliegue global en Edge CDN."
+              - generic [ref=e601]:
+                - generic [ref=e602]:
+                  - term [ref=e603]: Tiempo de Carga (LCP)
+                  - definition [ref=e604]: 0.94 s
+                - generic [ref=e605]:
+                  - term [ref=e606]: Aumento en Conversión
+                  - definition [ref=e607]: +142%
+                - generic [ref=e608]:
+                  - term [ref=e609]: Puntuación Lighthouse
+                  - definition [ref=e610]: 100 / 100
+                - generic [ref=e611]:
+                  - term [ref=e612]: Ahorro de Infraestructura
+                  - definition [ref=e613]: "-65%"
+          - listitem [ref=e614]:
+            - generic [ref=e615]:
+              - generic [ref=e616]:
+                - paragraph [ref=e617]: Apps móviles
+                - heading "Logística de Última Milla" [level=3] [ref=e618]
+                - paragraph [ref=e619]: "Antes: App de conductores que perdía pedidos en sótanos y zonas rurales por falta de conectividad y consumía la batería en 4 horas."
+                - paragraph [ref=e620]: "Qué construimos: Desarrollo de app offline-first con SQLite embebido, sincronización delta basada en timestamps y optimización del GPS con geofencing."
+              - generic [ref=e621]:
+                - generic [ref=e622]:
+                  - term [ref=e623]: Tiempo de Batería Útil
+                  - definition [ref=e624]: +320%
+                - generic [ref=e625]:
+                  - term [ref=e626]: Pérdida de Transacciones
+                  - definition [ref=e627]: 0.00%
+                - generic [ref=e628]:
+                  - term [ref=e629]: Índice Libre de Crashes
+                  - definition [ref=e630]: 99.96%
+                - generic [ref=e631]:
+                  - term [ref=e632]: Conductores Activos
+                  - definition [ref=e633]: 25,000+
+          - listitem [ref=e634]:
+            - generic [ref=e635]:
+              - generic [ref=e636]:
+                - paragraph [ref=e637]: ERP y CRM
+                - heading "Distribuidora Multilatina de Alimentos" [level=3] [ref=e638]
+                - paragraph [ref=e639]: "Antes: Procesamiento de 60,000 pedidos diarios colapsaba su software anterior, con discrepancias de inventario de hasta $400k mensuales."
+                - paragraph [ref=e640]: "Qué construimos: Plataforma ERP a medida basada en microservicios NestJS, Kafka para sincronización de inventario en tiempo real y frontend modular en React."
+              - generic [ref=e641]:
+                - generic [ref=e642]:
+                  - term [ref=e643]: Tiempo de Conciliación
+                  - definition [ref=e644]: De 6 hrs a 3 min
+                - generic [ref=e645]:
+                  - term [ref=e646]: Precisión de Stock
+                  - definition [ref=e647]: 99.99%
+                - generic [ref=e648]:
+                  - term [ref=e649]: Throughput Pico
+                  - definition [ref=e650]: 18,500 req/s
+                - generic [ref=e651]:
+                  - term [ref=e652]: Disponibilidad Anual
+                  - definition [ref=e653]: 99.995%
+          - listitem [ref=e654]:
+            - generic [ref=e655]:
+              - generic [ref=e656]:
+                - paragraph [ref=e657]: Facturación electrónica
+                - heading "Cadena de Supermercados con 180 Puntos de Venta" [level=3] [ref=e658]
+                - paragraph [ref=e659]: "Antes: Colapso total de cajas los días 15 y 30 de cada mes debido a caídas del servidor tributario que bloqueaban las colas de clientes."
+                - paragraph [ref=e660]: "Qué construimos: Implementación de nuestro motor asíncrono con contingencia local, buffer RabbitMQ y firma digital en microservicios Go."
+              - generic [ref=e661]:
+                - generic [ref=e662]:
+                  - term [ref=e663]: Tiempo en Caja por Factura
+                  - definition [ref=e664]: < 180 ms
+                - generic [ref=e665]:
+                  - term [ref=e666]: Facturas Emitidas / Día
+                  - definition [ref=e667]: 450,000+
+                - generic [ref=e668]:
+                  - term [ref=e669]: Tolerancia a Caídas de Red
+                  - definition [ref=e670]: 100% Offline
+                - generic [ref=e671]:
+                  - term [ref=e672]: Multas Fiscales
+                  - definition [ref=e673]: $0 USD
+          - listitem [ref=e674]:
+            - generic [ref=e675]:
+              - generic [ref=e676]:
+                - paragraph [ref=e677]: Ciberseguridad
+                - heading "Fintech de Pagos Internacionales" [level=3] [ref=e678]
+                - paragraph [ref=e679]: "Antes: Un pentest previo detectó vulnerabilidades críticas de inyección y exposición de llaves de API que impedían su certificación bancaria."
+                - paragraph [ref=e680]: "Qué construimos: Remediación del 100% de hallazgos, implementación de HashiCorp Vault para secretos dinámicos y pipeline DevSecOps con bloqueo automático en CI."
+              - generic [ref=e681]:
+                - generic [ref=e682]:
+                  - term [ref=e683]: Vulnerabilidades Críticas
+                  - definition [ref=e684]: 0 detectadas
+                - generic [ref=e685]:
+                  - term [ref=e686]: Tiempo de Rotación de Secretos
+                  - definition [ref=e687]: 100% Automático
+                - generic [ref=e688]:
+                  - term [ref=e689]: Aprobación de Auditoría
+                  - definition [ref=e690]: 100% Sin Hallazgos
+                - generic [ref=e691]:
+                  - term [ref=e692]: Tiempo de Detección de Amenazas
+                  - definition [ref=e693]: < 2 segundos
+          - listitem [ref=e694]:
+            - generic [ref=e695]:
+              - generic [ref=e696]:
+                - paragraph [ref=e697]: Salud digital
+                - heading "Red Hospitalaria Privada (14 Clínicas)" [level=3] [ref=e698]
+                - paragraph [ref=e699]: "Antes: Historiales clínicos fragmentados en 5 sistemas diferentes; los médicos tardaban hasta 20 minutos en acceder a resultados de laboratorio previos."
+                - paragraph [ref=e700]: "Qué construimos: Desarrollo de un bus clínico interoperable basado en FHIR R4 con visor unificado de ficha médica y visor DICOM web integrado."
+              - generic [ref=e701]:
+                - generic [ref=e702]:
+                  - term [ref=e703]: Tiempo de Consulta Clínica
+                  - definition [ref=e704]: De 20 min a 35 seg
+                - generic [ref=e705]:
+                  - term [ref=e706]: Registros Interoperados
+                  - definition [ref=e707]: 2.4 Millones
+                - generic [ref=e708]:
+                  - term [ref=e709]: Cumplimiento Regulatorio
+                  - definition [ref=e710]: 100% HIPAA Audit
+                - generic [ref=e711]:
+                  - term [ref=e712]: Satisfacción Médica
+                  - definition [ref=e713]: 98.4%
+    - region [ref=e714]:
+      - generic [ref=e716]:
+        - generic [ref=e717]:
+          - generic [ref=e718]:
+            - heading "Planifica tu inmersión" [level=2] [ref=e719]
+            - paragraph [ref=e720]: Cuéntanos qué proceso quieres que deje de depender de personas copiando datos entre sistemas. Un arquitecto evalúa viabilidad, stack, SLA y presupuesto preliminar.
+          - paragraph [ref=e721]:
+            - generic [ref=e722]: 000.0m
+            - generic [ref=e723]: Superficie
+        - generic [ref=e724]:
+          - generic [ref=e725]:
+            - generic [ref=e726]:
+              - generic [ref=e727]:
+                - term [ref=e728]: NDA antes de ver tu código
+                - definition [ref=e731]: Firmamos un acuerdo de confidencialidad bilateral antes de revisar diagramas, datos o código propietario.
+              - generic [ref=e732]:
+                - term [ref=e733]: Respuesta en menos de 4 horas laborables
+                - definition [ref=e736]: Tu solicitud llega directo a un arquitecto de software senior, no a un representante de ventas.
+              - generic [ref=e737]:
+                - term [ref=e738]: La propiedad intelectual es tuya
+                - definition [ref=e741]: Código fuente, infraestructura como código y documentación quedan 100 % en tu empresa.
+            - generic [ref=e742]:
+              - paragraph [ref=e743]: O escribe directo al equipo de arquitectura
+              - link "engineering@krypton.dev" [ref=e744] [cursor=pointer]:
+                - /url: mailto:engineering@krypton.dev
+          - generic [ref=e747]:
+            - generic [ref=e748]:
+              - generic [ref=e749]: Nombre completo
+              - textbox "Nombre completo" [ref=e750]:
+                - /placeholder: Ej. Carla Mendoza
+            - generic [ref=e751]:
+              - generic [ref=e752]: Correo corporativo
+              - textbox "Correo corporativo" [ref=e753]:
+                - /placeholder: nombre@empresa.com
+            - generic [ref=e754]:
+              - generic [ref=e755]: Empresa u organización
+              - textbox "Empresa u organización" [ref=e756]:
+                - /placeholder: Ej. Distribuidora del Pacífico
+            - generic [ref=e757]:
+              - generic [ref=e758]: ¿Qué quieres resolver?
+              - combobox "¿Qué quieres resolver?" [ref=e759]:
+                - option "Agentes de IA" [selected]
+                - option "Automatización de procesos"
+                - option "Plataformas web"
+                - option "Apps móviles"
+                - option "ERP y CRM"
+                - option "Facturación electrónica"
+                - option "Ciberseguridad y cumplimiento"
+                - option "Salud digital (HL7 FHIR / HIPAA)"
+            - generic [ref=e760]:
+              - generic [ref=e761]: Topología preliminar
+              - combobox "Topología preliminar" [ref=e762]:
+                - option "Que la defina el arquitecto" [selected]
+                - option "Monolito modular"
+                - option "Microservicios"
+                - option "Guiada por eventos"
+                - option "Serverless y edge"
+                - option "Multi-tenant SaaS"
+            - generic [ref=e763]:
+              - generic [ref=e764]: Disponibilidad objetivo
+              - combobox "Disponibilidad objetivo" [ref=e765]:
+                - option "99.9 % · estándar web"
+                - option "99.98 % · núcleo empresarial" [selected]
+                - option "99.995 % · misión crítica"
+            - generic [ref=e766]:
+              - generic [ref=e767]: El proceso o sistema
+              - textbox "El proceso o sistema" [ref=e768]:
+                - /placeholder: Ej. Recibimos 3.000 facturas de proveedores al mes por correo y tres personas las registran a mano en SAP…
+            - generic [ref=e769] [cursor=pointer]:
+              - checkbox "Necesito firmar un NDA antes de compartir detalles técnicos." [checked] [ref=e770]
+              - text: Necesito firmar un NDA antes de compartir detalles técnicos.
+            - button "Solicitar diagnóstico" [ref=e771]
+    - generic [ref=e774]:
+      - generic [ref=e775]:
+        - generic [ref=e776]:
+          - paragraph [ref=e777]: Krypton
+          - paragraph [ref=e778]: Atomic Software Factory
+          - paragraph [ref=e779]: Agentes de IA y automatización sobre ingeniería de misión crítica. Santiago · Bogotá · Ciudad de México.
+        - navigation "Pie de página" [ref=e780]:
+          - paragraph [ref=e781]: Recorrido
+          - list [ref=e782]:
+            - listitem [ref=e783]:
+              - link "Agentes IA" [ref=e784] [cursor=pointer]:
+                - /url: "#agentes"
+            - listitem [ref=e785]:
+              - link "Automatización" [ref=e786] [cursor=pointer]:
+                - /url: "#automatizacion"
+            - listitem [ref=e787]:
+              - link "Sistemas" [ref=e788] [cursor=pointer]:
+                - /url: "#sistemas"
+            - listitem [ref=e789]:
+              - link "Arquitectura" [ref=e790] [cursor=pointer]:
+                - /url: "#arquitectura"
+            - listitem [ref=e791]:
+              - link "Método" [ref=e792] [cursor=pointer]:
+                - /url: "#metodo"
+            - listitem [ref=e793]:
+              - link "Resultados" [ref=e794] [cursor=pointer]:
+                - /url: "#resultados"
+        - generic [ref=e795]:
+          - paragraph [ref=e796]: Acreditación
+          - list [ref=e797]:
+            - listitem [ref=e798]: ISO/IEC 27001:2022
+            - listitem [ref=e799]: HIPAA · HL7 FHIR
+            - listitem [ref=e800]: SOC 2 Type II Ready
+            - listitem [ref=e801]: WCAG 2.2 AA
+      - generic [ref=e802]:
+        - paragraph [ref=e803]: © 2026 Krypton Atomic Software Factory
+        - link "Volver a la superficie" [ref=e804] [cursor=pointer]:
+          - /url: "#inicio"

@@ -1,0 +1,543 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-05T15:51:16.180Z",
+  "title": "Design System: Krypton Atomic Software Factory",
+  "extensions": {
+    "colorMeta": {
+      "surface": {
+        "role": "neutral",
+        "displayName": "Surface Water",
+        "canonical": "#0f4c66",
+        "tonalRamp": [
+          "#040c1a",
+          "#071a30",
+          "#0a2038",
+          "#0a2440",
+          "#0b2a44",
+          "#0a3049",
+          "#0c3f57",
+          "#0f4c66"
+        ]
+      },
+      "midnight": {
+        "role": "neutral",
+        "displayName": "Midnight",
+        "canonical": "#0b2a44",
+        "tonalRamp": [
+          "#040c1a",
+          "#071a30",
+          "#0a2038",
+          "#0a2440",
+          "#0b2a44",
+          "#0a3049",
+          "#0c3f57",
+          "#0f4c66"
+        ]
+      },
+      "cold": {
+        "role": "neutral",
+        "displayName": "Cold Water",
+        "canonical": "#0a2038",
+        "tonalRamp": [
+          "#040c1a",
+          "#071a30",
+          "#0a2038",
+          "#0a2440",
+          "#0b2a44",
+          "#0a3049",
+          "#0c3f57",
+          "#0f4c66"
+        ]
+      },
+      "mesophotic": {
+        "role": "neutral",
+        "displayName": "Mesophotic",
+        "canonical": "#071a30",
+        "tonalRamp": [
+          "#040c1a",
+          "#071a30",
+          "#0a2038",
+          "#0a2440",
+          "#0b2a44",
+          "#0a3049",
+          "#0c3f57",
+          "#0f4c66"
+        ]
+      },
+      "abyss": {
+        "role": "neutral",
+        "displayName": "Abyss",
+        "canonical": "#040c1a",
+        "tonalRamp": [
+          "#040c1a",
+          "#071a30",
+          "#0a2038",
+          "#0a2440",
+          "#0b2a44",
+          "#0a3049",
+          "#0c3f57",
+          "#0f4c66"
+        ]
+      },
+      "instrument-glass": {
+        "role": "neutral",
+        "displayName": "Instrument Glass",
+        "canonical": "#04101f",
+        "tonalRamp": [
+          "#051324",
+          "#0a2a51",
+          "#114688",
+          "#1862be",
+          "#3482e5",
+          "#6ea6ec",
+          "#a5c8f3",
+          "#dbe9fa"
+        ]
+      },
+      "ink-on-thermo": {
+        "role": "neutral",
+        "displayName": "Ink on Thermo",
+        "canonical": "#04121f",
+        "tonalRamp": [
+          "#051524",
+          "#0a2f51",
+          "#114f88",
+          "#186ebe",
+          "#3490e5",
+          "#6eb0ec",
+          "#a5cdf3",
+          "#dbebfa"
+        ]
+      },
+      "snow": {
+        "role": "neutral",
+        "displayName": "Marine Snow",
+        "canonical": "#eef4f5",
+        "tonalRamp": [
+          "#0f181a",
+          "#22363a",
+          "#395b60",
+          "#4f7f87",
+          "#6ea2aa",
+          "#98bdc3",
+          "#bfd5d9",
+          "#e5eef0"
+        ]
+      },
+      "silt": {
+        "role": "neutral",
+        "displayName": "Silt",
+        "canonical": "#a9bfcb",
+        "tonalRamp": [
+          "#0f1619",
+          "#233139",
+          "#3a525f",
+          "#517385",
+          "#7095a9",
+          "#99b3c2",
+          "#bfd0d9",
+          "#e6ecf0"
+        ]
+      },
+      "murk": {
+        "role": "neutral",
+        "displayName": "Murk",
+        "canonical": "#7f98a8",
+        "tonalRamp": [
+          "#111518",
+          "#253037",
+          "#3e505b",
+          "#577080",
+          "#7691a2",
+          "#9eb1bd",
+          "#c2ced6",
+          "#e7ebee"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "#1b3a55",
+        "tonalRamp": [
+          "#0a151f",
+          "#163046",
+          "#254f74",
+          "#346fa3",
+          "#5190c8",
+          "#83b0d8",
+          "#b2cee6",
+          "#e0ebf5"
+        ]
+      },
+      "rule-hover": {
+        "role": "neutral",
+        "displayName": "Lit Hairline",
+        "canonical": "#2c5677",
+        "tonalRamp": [
+          "#0b161e",
+          "#193043",
+          "#295170",
+          "#3a719c",
+          "#5793c1",
+          "#88b2d3",
+          "#b5cfe3",
+          "#e1ecf4"
+        ]
+      },
+      "thermo": {
+        "role": "primary",
+        "displayName": "Thermocline Cyan",
+        "canonical": "#3fd8e8",
+        "tonalRamp": [
+          "#042124",
+          "#0a4b52",
+          "#107d89",
+          "#17afbf",
+          "#32d5e6",
+          "#6de1ee",
+          "#a4ecf4",
+          "#dbf8fb"
+        ]
+      },
+      "thermo-bright": {
+        "role": "primary",
+        "displayName": "Surface Glint",
+        "canonical": "#7ae6f0",
+        "tonalRamp": [
+          "#042225",
+          "#094c52",
+          "#107f89",
+          "#16b2c0",
+          "#31d8e8",
+          "#6ce3ee",
+          "#a3eef5",
+          "#daf8fb"
+        ]
+      },
+      "thermo-deep": {
+        "role": "primary",
+        "displayName": "Deep Thermocline",
+        "canonical": "#1fa9bb",
+        "tonalRamp": [
+          "#062023",
+          "#0d474f",
+          "#167783",
+          "#1ea6b8",
+          "#3acbde",
+          "#73dae8",
+          "#a8e8f0",
+          "#dcf6f9"
+        ]
+      },
+      "lamp": {
+        "role": "secondary",
+        "displayName": "Diver's Lamp Amber",
+        "canonical": "#ffb45e",
+        "tonalRamp": [
+          "#291600",
+          "#5c3100",
+          "#995200",
+          "#d67200",
+          "#ff941a",
+          "#ffb35c",
+          "#ffcf99",
+          "#ffecd6"
+        ]
+      },
+      "alarm": {
+        "role": "tertiary",
+        "displayName": "Alarm Coral",
+        "canonical": "#ff8a7a",
+        "tonalRamp": [
+          "#290500",
+          "#5c0b00",
+          "#991200",
+          "#d61a00",
+          "#ff351a",
+          "#ff6f5c",
+          "#ffa599",
+          "#ffdbd6"
+        ]
+      },
+      "coral": {
+        "role": "neutral",
+        "displayName": "Coral Body",
+        "canonical": "#06111c",
+        "tonalRamp": [
+          "#071422",
+          "#102e4c",
+          "#1b4c7e",
+          "#266bb0",
+          "#428cd7",
+          "#79ade2",
+          "#abcced",
+          "#ddebf8"
+        ]
+      },
+      "coral-tip": {
+        "role": "neutral",
+        "displayName": "Coral Tip",
+        "canonical": "#8fa6b4",
+        "tonalRamp": [
+          "#101518",
+          "#253037",
+          "#3d505c",
+          "#567080",
+          "#7692a3",
+          "#9db1be",
+          "#c2ced6",
+          "#e7ecef"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero headline at 0 m only."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "One per dive stop, with its depth readout beside it."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Sub-blocks within a stop and step verbs."
+      },
+      "subtitle": {
+        "displayName": "Subtitle",
+        "purpose": "Agent names and comparison column heads."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Running text at 30 to 40rem measures."
+      },
+      "lead": {
+        "displayName": "Lead",
+        "purpose": "Section leads in Silt."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Uppercase tracked Geist for definition terms, row heads and captions; never above a headline."
+      },
+      "data": {
+        "displayName": "Data",
+        "purpose": "Geist Mono for depths, timestamps, metrics, versions and specs only."
+      }
+    },
+    "shadows": [
+      {
+        "name": "thermocline-bloom",
+        "value": "0 0 18px 2px rgba(63, 216, 232, 0.35)",
+        "purpose": "Glow of the single thermocline light line."
+      },
+      {
+        "name": "active-stop-halo",
+        "value": "0 0 0 4px rgba(63, 216, 232, 0.18)",
+        "purpose": "Halo on the active rail stop marker."
+      },
+      {
+        "name": "focus-ring",
+        "value": "outline: 2px solid #3fd8e8; outline-offset: 3px",
+        "purpose": "Global focus-visible treatment."
+      },
+      {
+        "name": "instrument-glass",
+        "value": "background: rgba(4, 16, 31, 0.55 to 0.96); backdrop-filter: blur(4px to 12px)",
+        "purpose": "Translucent panels, rail and mobile bar over the water."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out-expo",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Default easing for reveals, swaps and state transitions."
+      },
+      {
+        "name": "lamp-reveal",
+        "value": "opacity 0.2 to 1, blur 10px to 0, translateY 28px to 0; 1.1s ease-out-expo; once at 15% in view",
+        "purpose": "Content resolving out of the murk."
+      },
+      {
+        "name": "hero-reveal",
+        "value": "opacity 0 to 1, blur 14px to 0, translateY 40px to 0; 1.4s ease-out-expo",
+        "purpose": "Hero headline entrance."
+      },
+      {
+        "name": "panel-swap-in",
+        "value": "opacity 0 to 1, blur 10px to 0, translateY 26px to 0; 0.7s ease-out-expo",
+        "purpose": "Tab panel entering."
+      },
+      {
+        "name": "panel-swap-out",
+        "value": "opacity 1 to 0, blur 0 to 8px, translateY 0 to -18px; 0.28s cubic-bezier(0.4, 0, 1, 1)",
+        "purpose": "Tab panel leaving."
+      },
+      {
+        "name": "depth-spring",
+        "value": "spring stiffness 90, damping 16, mass 0.9",
+        "purpose": "Depth gauge numbers."
+      },
+      {
+        "name": "indicator-spring",
+        "value": "spring stiffness 380, damping 32",
+        "purpose": "Active tab bar sliding between items."
+      },
+      {
+        "name": "camera-ballistic",
+        "value": "velocity += (target - y) * 28 * dt; velocity -= velocity * 8.5 * dt",
+        "purpose": "Underdamped camera descent: overshoots slightly and settles."
+      },
+      {
+        "name": "sheet-wipe",
+        "value": "clip-path inset(0 0 100% 0) to inset(0); 0.45s ease-out-expo",
+        "purpose": "Mobile dive-profile sheet."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "MotionConfig reducedMotion=\"user\"; scene frozen; camera jumps to depth",
+        "purpose": "Accessibility."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sm",
+        "value": "640px"
+      },
+      {
+        "name": "md",
+        "value": "768px"
+      },
+      {
+        "name": "lg",
+        "value": "1024px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The single action ink: start the conversation with an architect.",
+      "html": "<a class=\"ds-btn-primary\" href=\"#\">Hablar con un arquitecto <svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14\"/><path d=\"m12 5 7 7-7 7\"/></svg></a>",
+      "css": ".ds-btn-primary{display:inline-flex;align-items:center;gap:12px;background:var(--color-thermo,#3fd8e8);color:#04121f;padding:16px 24px;font-family:var(--font-sans,'Geist',sans-serif);font-size:1rem;font-weight:600;text-decoration:none;border:0;border-radius:0;transition:background-color .3s cubic-bezier(.16,1,.3,1),transform .3s}.ds-btn-primary svg{transition:transform .3s}.ds-btn-primary:hover{background:#7ae6f0}.ds-btn-primary:hover svg{transform:translateX(4px)}.ds-btn-primary:active{transform:translateY(1px)}.ds-btn-primary:focus-visible{outline:2px solid #3fd8e8;outline-offset:3px}"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Outlined route deeper into the dive; turns cyan only on hover.",
+      "html": "<a class=\"ds-btn-secondary\" href=\"#\">Ver cómo opera un agente <svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 5v14\"/><path d=\"m19 12-7 7-7-7\"/></svg></a>",
+      "css": ".ds-btn-secondary{display:inline-flex;align-items:center;gap:12px;background:transparent;color:#eef4f5;border:1px solid rgba(238,244,245,.4);border-radius:0;padding:16px 24px;font-family:var(--font-sans,'Geist',sans-serif);font-size:1rem;font-weight:500;text-decoration:none;transition:color .3s,border-color .3s}.ds-btn-secondary:hover{color:#3fd8e8;border-color:#3fd8e8}.ds-btn-secondary:focus-visible{outline:2px solid #3fd8e8;outline-offset:3px}"
+    },
+    {
+      "name": "Field",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "Instrument-language text field on abyss glass with a cyan focus border.",
+      "html": "<div class=\"ds-fieldwrap\"><label class=\"ds-field-label\" for=\"ds-email\">Correo corporativo</label><input id=\"ds-email\" class=\"ds-field\" placeholder=\"nombre@empresa.com\"></div>",
+      "css": ".ds-fieldwrap{background:#071a30;padding:20px}.ds-field-label{display:block;margin-bottom:8px;font-family:'Geist',sans-serif;font-size:.9rem;font-weight:500;color:#eef4f5}.ds-field{width:100%;background:rgba(4,12,26,.55);border:1px solid #1b3a55;color:#eef4f5;caret-color:#3fd8e8;font-family:'Geist',sans-serif;font-size:.95rem;padding:.8rem .9rem;border-radius:2px;transition:border-color .25s cubic-bezier(.16,1,.3,1),background-color .25s cubic-bezier(.16,1,.3,1)}.ds-field::placeholder{color:#7f98a8}.ds-field:hover{border-color:#2c5677}.ds-field:focus{outline:none;border-color:#3fd8e8;background:rgba(4,12,26,.8)}.ds-field[aria-invalid=true]{border-color:#ff8a7a}"
+    },
+    {
+      "name": "Dive Rail",
+      "kind": "nav",
+      "refersTo": "dive-rail",
+      "description": "The dive profile is the navigation: stops on a hairline spine, active stop lit cyan, passed stops filled.",
+      "html": "<nav class=\"ds-rail\"><p class=\"ds-rail-head\"><span>Perfil de inmersión</span><span>m</span></p><ol><li class=\"passed\"><a href=\"#\"><i></i><b>00</b><span>Inicio<small>Superficie</small></span></a></li><li class=\"active\"><a href=\"#\" aria-current=\"location\"><i></i><b>10</b><span>Agentes IA<small>Termoclina</small></span></a></li><li><a href=\"#\"><i></i><b>18</b><span>Automatización<small>Arrecife</small></span></a></li></ol><p class=\"ds-gauge\">010.0<small>m</small></p></nav>",
+      "css": ".ds-rail{width:272px;background:rgba(4,16,31,.72);border-right:1px solid rgba(27,58,85,.8);padding:24px 28px;font-family:'Geist',sans-serif;color:#eef4f5}.ds-rail-head{display:flex;justify-content:space-between;margin:0 0 12px;font-size:.72rem;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:#a9bfcb}.ds-rail ol{list-style:none;margin:0;padding:0;position:relative}.ds-rail ol::before{content:'';position:absolute;left:5px;top:12px;bottom:12px;width:1px;background:#1b3a55}.ds-rail a{display:flex;gap:16px;align-items:flex-start;padding:10px 0;color:inherit;text-decoration:none}.ds-rail i{position:relative;margin-top:6px;width:10px;height:10px;border-radius:9999px;border:1px solid #7f98a8;background:#04101f;flex-shrink:0;transition:all .5s}.ds-rail b{font-family:'Geist Mono',monospace;font-weight:400;font-size:.8rem;color:#7f98a8;width:28px;font-variant-numeric:tabular-nums slashed-zero}.ds-rail span{font-size:.92rem;font-weight:500;line-height:1.25}.ds-rail small{display:block;font-size:.76rem;font-weight:400;color:#7f98a8}.ds-rail a:hover span{color:#3fd8e8}.ds-rail a:hover i{border-color:#eef4f5}.ds-rail .passed i{background:#a9bfcb;border-color:#a9bfcb}.ds-rail .active i{background:#3fd8e8;border-color:#3fd8e8;transform:scale(1.25);box-shadow:0 0 0 4px rgba(63,216,232,.18)}.ds-rail .active span{color:#3fd8e8}.ds-rail a:focus-visible{outline:2px solid #3fd8e8;outline-offset:2px}.ds-gauge{margin:20px 0 0;font-family:'Geist Mono',monospace;font-size:2.6rem;font-weight:500;line-height:1;color:#3fd8e8}.ds-gauge small{font-size:1rem;margin-left:6px}"
+    },
+    {
+      "name": "Tabs",
+      "kind": "nav",
+      "refersTo": "tab-active",
+      "description": "Text-only tabs with a 2px cyan bar that springs to the selected item.",
+      "html": "<div class=\"ds-tabs\" role=\"tablist\"><button role=\"tab\" aria-selected=\"true\">Monolito modular</button><button role=\"tab\" aria-selected=\"false\">Microservicios</button><button role=\"tab\" aria-selected=\"false\">Guiada por eventos</button></div>",
+      "css": ".ds-tabs{display:flex;gap:32px;border-bottom:1px solid #1b3a55;background:#071a30;padding:8px 16px 0}.ds-tabs button{position:relative;background:none;border:0;padding:4px 0 16px;font-family:'Geist',sans-serif;font-size:1rem;font-weight:500;color:#a9bfcb;cursor:pointer;transition:color .3s}.ds-tabs button:hover{color:#eef4f5}.ds-tabs button[aria-selected=true]{color:#3fd8e8}.ds-tabs button[aria-selected=true]::after{content:'';position:absolute;left:0;right:0;bottom:-1px;height:2px;background:#3fd8e8}.ds-tabs button:focus-visible{outline:2px solid #3fd8e8;outline-offset:3px}"
+    },
+    {
+      "name": "Agent Trace Panel",
+      "kind": "card",
+      "refersTo": "instrument-panel",
+      "description": "Instrument panel replaying an agent run; amber marks the agent at work.",
+      "html": "<figure class=\"ds-trace\"><figcaption><span>Agente · cuentas por pagar</span><em>Simulación</em></figcaption><ol><li class=\"done\"><b>00.0s</b><i></i><span>Correo recibido<small>factura F001-004812 · PDF + XML</small></span></li><li class=\"live\"><b>01.4s</b><i></i><span>Lectura<small>23 campos · RUC, montos, IGV</small></span></li><li><b>02.1s</b><i></i><span>Validación SUNAT<small>comprobante aceptado</small></span></li></ol><footer><em>Intervención humana</em><b>evaluando…</b></footer></figure>",
+      "css": ".ds-trace{margin:0;width:368px;background:rgba(4,16,31,.78);border:1px solid rgba(27,58,85,.9);font-family:'Geist',sans-serif;color:#eef4f5}.ds-trace figcaption,.ds-trace footer{display:flex;justify-content:space-between;align-items:center;padding:12px 20px;border-bottom:1px solid rgba(27,58,85,.9)}.ds-trace footer{border-bottom:0;border-top:1px solid rgba(27,58,85,.9)}.ds-trace figcaption span{font-size:.88rem;font-weight:500}.ds-trace em{font-style:normal;font-size:.62rem;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:#a9bfcb}.ds-trace ol{list-style:none;margin:0;padding:12px 20px}.ds-trace li{display:grid;grid-template-columns:3rem 1rem 1fr;gap:0 8px;padding:6px 0;color:#7f98a8}.ds-trace b,.ds-trace small,.ds-trace footer b{font-family:'Geist Mono',monospace;font-weight:400;font-variant-numeric:tabular-nums slashed-zero}.ds-trace b{font-size:.76rem}.ds-trace span{font-size:.9rem;line-height:1.35}.ds-trace small{display:block;font-size:.74rem}.ds-trace i{margin-top:7px;width:8px;height:8px;border-radius:9999px;border:1px solid #7f98a8}.ds-trace li.done,.ds-trace li.live{color:#eef4f5}.ds-trace li.done b,.ds-trace li.done small,.ds-trace li.live b,.ds-trace li.live small{color:#a9bfcb}.ds-trace li.done i{border:0;background:rgba(255,180,94,.55)}.ds-trace li.live i{border:0;background:#ffb45e;box-shadow:0 0 0 4px rgba(255,180,94,.2)}.ds-trace footer b{font-size:.8rem;color:#a9bfcb}"
+    },
+    {
+      "name": "Section Head",
+      "kind": "custom",
+      "refersTo": "headline",
+      "description": "Stop headline in condensed uppercase with its depth reading and zone beside it, never above.",
+      "html": "<div class=\"ds-head\"><div><h2>Agentes que actúan, no que conversan</h2><p>Un agente tiene un trabajo concreto y un límite claro de cuándo llamar a una persona.</p></div><p class=\"ds-depth\"><b>010.0<small>m</small></b><em>Termoclina</em></p></div>",
+      "css": ".ds-head{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:24px;align-items:end;background:#0b2a44;padding:32px;color:#eef4f5}.ds-head h2{margin:0;font-family:'Big Shoulders Display','Arial Narrow',sans-serif;font-weight:800;text-transform:uppercase;font-size:3.6rem;line-height:.9;letter-spacing:.005em}.ds-head p{margin:20px 0 0;max-width:40rem;font-family:'Geist',sans-serif;font-size:1.08rem;line-height:1.625;color:#a9bfcb}.ds-head .ds-depth{display:flex;flex-direction:column;align-items:flex-end;gap:4px;margin:0}.ds-depth b{font-family:'Geist Mono',monospace;font-weight:400;font-size:1.6rem;line-height:1;color:#eef4f5}.ds-depth small{font-size:.875rem;margin-left:4px;color:#a9bfcb}.ds-depth em{font-style:normal;font-family:'Geist',sans-serif;font-size:.72rem;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:#a9bfcb}"
+    },
+    {
+      "name": "Thermocline Line",
+      "kind": "custom",
+      "refersTo": "thermo",
+      "description": "The single horizontal light line the world allows, at the 10 m stop.",
+      "html": "<div class=\"ds-thermo-wrap\"><div class=\"ds-thermocline\"></div></div>",
+      "css": ".ds-thermo-wrap{background:#0a3049;padding:40px 0}.ds-thermocline{height:1px;background:linear-gradient(90deg,transparent,#3fd8e8 18%,#3fd8e8 82%,transparent);box-shadow:0 0 18px 2px rgba(63,216,232,.35)}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Deep Dive",
+    "overview": "The whole site is one descent through water that darkens with depth. Every section is a dive stop with a depth in meters; scroll is the only gesture, and it moves a WebGL camera down a water column whose colour, fog and light follow continuously. The ground is never a flat page colour: it is water graded from a lit turquoise surface (0 m) to near-black abyss (60 m), with marine-snow particles and a dark neural coral whose branches carry amber agent signals.\n\nThe interface on top of that water is an instrument, not a brochure. Panels read like dive computers and logbooks: hairline 1px rules, square corners, translucent dark glass, condensed uppercase headlines, and monospaced readouts for every number that is actually a measurement. Density is moderate and editorial: long rows divided by rules rather than grids of cards.\n\nTwo inks are reserved and never decorative. Thermocline cyan marks what you can act on and where you are; lamp amber marks an agent doing work. Everything else is water, snow, silt and murk.",
+    "keyCharacteristics": [
+      "Depth-graded water ground driven by scroll; the page is a dive profile from 0 m to 60 m and back.",
+      "A fixed dive-profile rail is the navigation; the active stop is lit cyan, finished stops stay marked.",
+      "Two reserved inks: cyan for action and active depth, amber for agent signal.",
+      "Condensed uppercase display over a neutral grotesk; mono strictly for data.",
+      "1px hairline rules, square corners, translucent instrument glass; no cards-in-cards.",
+      "Motion has mass: ballistic springs for depth, lamp reveals for content, blur swaps for panels."
+    ],
+    "rules": [
+      {
+        "name": "The Palette Law",
+        "body": "Thermocline cyan appears only on actions and on the active depth; lamp amber appears only on agent signal. If an element is neither clickable, current, nor an agent at work, it gets neither ink.",
+        "section": "colors"
+      },
+      {
+        "name": "The Graded Water Rule",
+        "body": "Backgrounds come from the water column for their depth, never from an arbitrary flat colour. A new section takes the water of its stop.",
+        "section": "colors"
+      },
+      {
+        "name": "The Instrument Mono Rule",
+        "body": "Geist Mono is for measurements only: depths, times, metrics, versions, specs. Names, labels, and prose never use it.",
+        "section": "typography"
+      },
+      {
+        "name": "The Depth Beside the Headline Rule",
+        "body": "A stop headline carries its depth reading and zone name to its side (right-aligned on desktop, under a hairline on mobile), never above it.",
+        "section": "typography"
+      },
+      {
+        "name": "The Glass Over Water Rule",
+        "body": "Panels are dark translucent glass (Instrument Glass at 55 to 96% with backdrop blur) over moving water. They never become opaque slabs and never cast shadows.",
+        "section": "elevation"
+      },
+      {
+        "name": "The One Light Line Rule",
+        "body": "The thermocline is the only horizontal light line the world allows. Every other divider is a plain hairline.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** give every new section a dive stop: a depth in meters, a zone name, an entry on the rail, and the water colour of that depth.",
+      "**Do** keep cyan for actions, current position and focus, and amber for agents at work (The Palette Law).",
+      "**Do** set every measurement in Geist Mono with tabular numerals and its unit in smaller Silt beside it.",
+      "**Do** divide content with 1px Hairline rules and asymmetric ruled rows.",
+      "**Do** put panels on translucent Instrument Glass with backdrop blur so the water stays visible.",
+      "**Do** give moving values mass (springs) and let content arrive with the lamp reveal; respect reduced motion."
+    ],
+    "donts": [
+      "**Don't** put cyan or amber on decoration, illustration, or inactive text.",
+      "**Don't** place a label, kicker or number above a headline; the depth reading goes beside it.",
+      "**Don't** number sections; depth is the only sequence.",
+      "**Don't** round buttons, panels or tabs; circles are reserved for markers and nodes.",
+      "**Don't** use drop shadows or opaque cards, and never nest a panel inside a panel.",
+      "**Don't** use Geist Mono for names, labels or prose.",
+      "**Don't** add a second horizontal glowing line; the thermocline is the only one."
+    ]
+  }
+}

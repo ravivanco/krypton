@@ -1,0 +1,124 @@
+{
+  "title": "Elige el mundo visual de Krypton",
+  "question": "The roll assigned El Expediente. Keep it, take an alternate, or re-roll.",
+  "options": [
+    {
+      "id": "assigned",
+      "label": "El Expediente",
+      "kicker": "THE ROLL",
+      "lineage": "LatAm office paperwork: green-bar continuous forms, manila case files, rubber stamps, carbon copies",
+      "thesis": "Every client process is a case file your AI agents read, stamp and close in real time, rendered as real 3D paper.",
+      "palette": ["#E7F1E6", "#2F7D4F", "#E0A526", "#4B3FA8", "#D6312B", "#15171C"],
+      "materials": ["green-bar tractor-feed paper in WebGL", "manila folder stock", "rubber-stamp ink with mass", "carbon-blue neural fibers that read fields and route them to SUNAT, ERP, CRM"],
+      "viewport": "A real supplier invoice drops onto a green-bar sheet; neural fibers read its fields, stamps land (RECIBIDO, VALIDADO, TIMBRADO, CONTABILIZADO), headline and 'Hablar con un arquitecto' set as typed form fields beside it.",
+      "risk": "Can read nostalgic or bureaucratic if the 3D, light and motion are not unmistakably modern.",
+      "raised": [
+        {"from": "challenger-vu-meter", "raise": "Ballistics: every number and stamp moves with mass, overshoot and settle; nothing snaps to an instant value."},
+        {"from": "challenger-cape", "raise": "One gesture: a single scroll pull carries the case file through every station as one continuous spatial transition."},
+        {"from": "challenger-arcade", "raise": "Palette law: each process state owns exactly one ink (red received, violet validated, green posted) and no decoration may borrow it."},
+        {"from": "challenger-ticket-wallet", "raise": "Nothing disappears, it cancels: finished steps stay as stamped stubs, so the file always shows what remains."}
+      ]
+    },
+    {
+      "id": "model-pick",
+      "label": "Tejido Neural",
+      "kicker": "IMPECCABLE’S PICK",
+      "lineage": "Ramón y Cajal's neuron drawings rendered as a living 3D field",
+      "thesis": "Krypton's agents are a nervous system for the company: each service is a neuron, each process a signal you watch fire.",
+      "palette": ["#0B0F1A", "#F4EFE6", "#FF6A3D", "#7DD3C0"],
+      "materials": ["instanced 3D dendrites with depth of field", "ink-line Cajal drawing overlay", "signal pulses travelling axons"],
+      "viewport": "A dense 3D neuron field fills the screen; one signal fires from 'Factura recibida' to 'Asiento contable', headline set in the clearing.",
+      "risk": "Also where most AI-agency sites land; glowing neural nets are the category's most familiar image."
+    },
+    {
+      "id": "challenger-dubois",
+      "label": "Retratos de Datos",
+      "verdict": "competitive",
+      "lineage": "1900 Du Bois data portraits",
+      "thesis": "Krypton's real results become bold hand-inked graphic arguments: 99.995% as a spiral, P99 latency as slammed bars.",
+      "palette": ["#EFE4CF", "#C8202F", "#E8B021", "#1F6B47", "#111111"],
+      "materials": ["flat saturated ink fields", "hand-lettered small caps", "SVG spirals that unroll into bars"],
+      "viewport": "One giant crimson spiral of uptime coils beside the headline; the CTA is a caption on the chart.",
+      "case": "Holds product clarity (real metrics become the hero); loses audience identification with LatAm ops directors.",
+      "risk": "Proof-heavy, so the AI-agent offer can feel secondary.",
+      "hero": "https://impeccable.style/worlds/cards/dubois-data-portraits-hero.webp"
+    },
+    {
+      "id": "challenger-deep-dive",
+      "label": "Inmersión Profunda",
+      "verdict": "competitive",
+      "lineage": "technical deep dive down a volcanic wall",
+      "thesis": "The page descends from the agent at the surface through API, ERP, data and infrastructure to bedrock.",
+      "palette": ["#2EC4D6", "#0E3B5C", "#06142A", "#F2F6F7"],
+      "materials": ["depth-graded water light", "marine-snow particles", "dive-computer digits"],
+      "viewport": "Surface light; the agent at 0 m, depth gauge on the left rail, CTA as the dive start.",
+      "case": "Holds product clarity (the stack as depth); loses audience identification and drifts toward dark-blue category default.",
+      "risk": "Navy depth palette sits close to every other tech site.",
+      "hero": "https://impeccable.style/worlds/cards/rivers-tides-ocean-depths-mesophotic-deep-dive-hero.webp"
+    },
+    {
+      "id": "challenger-vu-meter",
+      "label": "Puente de VU",
+      "verdict": "declined",
+      "lineage": "recording-desk VU meter bridge",
+      "palette": ["#F1E9D6", "#111111", "#C9302C", "#6B4A2B"],
+      "materials": ["meter glass", "walnut and steel"],
+      "thesis": "Agents as channels on a bridge, needles leaning together.",
+      "viewport": "A row of meters, one per agent.",
+      "case": "Loses both axes: buyers don't identify with audio desks.",
+      "risk": "Reads as an audio brand.",
+      "kept": "True ballistics: mass and damping on every moving value."
+    },
+    {
+      "id": "challenger-cape",
+      "label": "Capa con Cordón",
+      "verdict": "declined",
+      "lineage": "drawcord transforming cape",
+      "palette": ["#0D0D0D", "#C9A227", "#3A3A3A"],
+      "materials": ["black silk", "gold cord"],
+      "thesis": "One pull transforms flat into volume.",
+      "viewport": "Flat black plane gathered by a gold cord.",
+      "case": "Loses both axes: fashion world, no link to operations.",
+      "risk": "Luxury costume.",
+      "kept": "One gesture drives the whole transformation."
+    },
+    {
+      "id": "challenger-ticket-wallet",
+      "label": "Billetera de Pasajes",
+      "verdict": "declined",
+      "lineage": "jet-age airline ticket wallet",
+      "palette": ["#1B2A52", "#D22B2B", "#FFFFFF", "#5B3F8C"],
+      "materials": ["carbon coupons", "VOID stamps"],
+      "thesis": "Each process leg as a tear-off coupon.",
+      "viewport": "A coupon book of process legs.",
+      "case": "Loses both axes against El Expediente, which carries the same stamp grammar closer to the buyer's daily paperwork.",
+      "risk": "Travel costume.",
+      "kept": "Nothing disappears, it cancels."
+    },
+    {
+      "id": "challenger-arcade",
+      "label": "Arcade CRT",
+      "verdict": "declined",
+      "lineage": "pixel-art arcade cabinet",
+      "palette": ["#000000", "#FFD23F", "#3BCEAC", "#EE4266"],
+      "materials": ["scanlines", "phosphor bloom"],
+      "thesis": "Agents as sprites on a tile grid.",
+      "viewport": "A 240-line playfield.",
+      "case": "Loses both axes: playful register undermines mission-critical trust.",
+      "risk": "Gimmick.",
+      "kept": "Strict palette law: each state owns one color."
+    }
+  ],
+  "reroll": { "registers": ["safer", "bolder"] },
+  "buildPath": { "value": "code" },
+  "canon": true,
+  "canonCard": {
+    "label": "El estándar de la categoría",
+    "thesis": "The AI-agency standard executed impeccably: near-black, one luminous 3D orb, bento grid of services.",
+    "palette": ["#07080C", "#F5F7FA", "#7C5CFF", "#22D3EE"],
+    "materials": ["dark glass", "gradient glow", "3D orb"],
+    "viewport": "Centered headline over a glowing 3D sphere, logos row, bento services below.",
+    "risk": "Indistinguishable from competing AI studios by design."
+  },
+  "steer": true
+}
